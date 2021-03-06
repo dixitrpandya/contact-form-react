@@ -1,0 +1,59 @@
+* {
+  font-family: Lato;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0 0 10px;
+}
+
+input,
+button {
+  height: 32px;
+  border-radius: 3px;
+  border: 2px solid #dddddd;
+  padding: 0 10px;
+  width: 200px;
+  display: block;
+}
+
+input[type="submit"],
+button {
+  border-color: #4285f4;
+  background-color: #4285f4;
+  color: #ffffff;
+}
+
+textarea {
+  height: 80px;
+  border-radius: 3px;
+  border: 2px solid #dddddd;
+  padding: 8px 10px;
+  width: 200px;
+  resize: vertical;
+  display: block;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.deliver-note {
+  padding: 10px;
+  background: #f7f7f7;
+  border: 2px solid #dddddd;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size: 90%;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.deliver-note h3,
+.deliver-note h4 {
+  margin: 0;
+}
+
+.deliver-note p {
+  margin: 10px 0;
+}
